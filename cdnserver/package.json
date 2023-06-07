@@ -1,0 +1,29 @@
+{
+  "name": "cdnserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export NODE_TLS_REJECT_UNAUTHORIZED='0' && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1258.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "geoip-lite": "^1.3.8",
+    "geolib": "^3.3.3",
+    "lodash": "^4.17.15",
+    "mime": "^2.4.4",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "s3fs": "^2.5.0",
+    "spdy": "^4.0.2",
+    "url": "^0.11.0",
+    "util": "^0.12.1"
+  }
+}
