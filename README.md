@@ -47,5 +47,11 @@ In order to run this web application the AWS S3 bucket need to be configured
   npm start
    ```    
    ## Screenshots
+   
+   - Homepage along with protocols used
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/neha2499/ContentDeliveryNetwork/blob/master/cdn.png)
+
+- Replica servers stored in AWS S3
+![App Screenshot](https://github.com/neha2499/ContentDeliveryNetwork/blob/master/cdn.png)
+
